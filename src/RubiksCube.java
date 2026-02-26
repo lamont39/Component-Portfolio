@@ -36,15 +36,15 @@ public final class RubiksCube {
         swap(corners, 4, 6);
         swap(corners, 4, 5);
 
-        swap(edges, 3, 1);
-        swap(edges, 3, 9);
-        swap(edges, 3, 11);
-        swap(edges, 2, 6);
-        swap(edges, 2, 8);
-        swap(edges, 2, 4);
-        swap(edges, 0, 7);
-        swap(edges, 0, 10);
-        swap(edges, 0, 5);
+        swap(edges, 0, 1);
+        swap(edges, 0, 2);
+        swap(edges, 0, 3);
+        swap(edges, 4, 5);
+        swap(edges, 4, 7);
+        swap(edges, 4, 6);
+        swap(edges, 8, 11);
+        swap(edges, 8, 10);
+        swap(edges, 8, 9);
 
     }
 
