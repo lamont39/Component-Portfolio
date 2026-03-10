@@ -4,6 +4,14 @@
 public interface RubiksCube extends RubiksCubeKernel {
 
     /**
+     * Reports whether the cube is solved.
+     *
+     * @return true iff every piece is in its starting position and orientation
+     * @ensures isSolved = (this = a solved cube)
+     */
+    boolean isSolved();
+
+    /**
      * Rotates the cube once counterclockwise around the vertical axis when
      * viewed from above.
      *

@@ -55,12 +55,4 @@ public interface RubiksCubeKernel extends Standard {
      */
     String cornerAt(int i);
 
-    /**
-     * Reports whether the cube is solved.
-     *
-     * @return true iff every piece is in its starting position and orientation
-     * @ensures isSolved = (this = a solved cube)
-     */
-    boolean isSolved();
-
 }
