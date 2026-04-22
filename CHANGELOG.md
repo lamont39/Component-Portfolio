@@ -6,7 +6,33 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## [Unreleased]
+
+- Disabled an aspect of the coderunner extension
+- Fixed broken links
+- Disabled AI features globally
+
+## [2024.12.30]
+
+- Added table-based rubrics to all 6 parts of the project
+- Updated gitignore to exclude more files
+- Fixed image markdown in the interfaces document
+
+## [2024.08.07]
+## 2026.03.31
+
+### Added
+
+- Designed abstract class for RubiksCube component
+
+### Updated
+
+- Changed design to include all moves and rotations as a single kernel method
+
 ## 2026.03.09
+
+## 2026.03.09
+
 
 ### Added
 
