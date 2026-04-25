@@ -304,7 +304,10 @@ Take some time to fill them out honestly.
 > understand software development and why?
 
 I don't know if it changed my understanding of software development. It felt
-like a longer, more extensive project, which I've already done a lot of.
+like a longer, more extensive project, which I've already done a lot of. I feel
+like it maps to the real world at least a little bit. This probably isn't how I
+would go about doing something like this on my own, but the skills I gained can
+be applied to a lot of things.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
@@ -312,14 +315,20 @@ like a longer, more extensive project, which I've already done a lot of.
 I don't know much about using enums. Based on where I put mine, I had to
 type sides out as RubiksCube.Side.RIGHT. I don't know if there was a better way
 to do it. I'm also not familiar with testing when you don't have a reference
-implementation, so I don't know if I did that well.
+implementation, so I don't know if I did that well. I feel like my Javadoc comments
+were fairly sloppy overall, so I could definitely improve there. Unfortunately,
+these were all issues that came up on the last segment of the project, so there
+wasn't much I could to do remedy them besides pushing through.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
 I enjoy it a lot. This project was awesome! It was enjoyable to work on something
-interesting that I might have future uses for.
+interesting that I might have future uses for. I enjoyed software development
+before the project, and I've worked on projects for classes and for personal
+projects, but this is the first time getting a grade for something like a personal
+project, so that's pretty cool.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -329,19 +338,28 @@ interesting that I might have future uses for.
 
 I don't think there were any non-software skills I picked up during the project.
 I picked up many software skills, of course, but I can't think of any that aren't.
+The software skills I picked up are mostly related to the OSU software discipline,
+but not all of them are. Trying to do testing without a reference implementation
+is a skill I struggled with, but I think I managed at least something. Writing
+and debugging code in general is of course a huge skill I developed throughout
+the project.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-I didn't have an answer for the previous question.
+Most of the skills I gained are just writing and debugging code in one way or
+another, so I really have no idea what I would do for this.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
 I don't think I will be pursuing a career in software development, although I
-don't know for sure. But for a few years now my focus had been on
-electrical/computer engineering.
+don't know for sure. For a few years now my focus had been on
+electrical/computer engineering. As much as I enjoy programming, I would prefer
+to be working on something with my hands, like electrical circuits. As far as the
+topic I chose goes, I would like to try to code an efficient Rubik's cube solver
+at some point.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
