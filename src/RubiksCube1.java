@@ -23,14 +23,35 @@
  *                 backward for edges in the middle layer.
  */
 public class RubiksCube1 extends RubiksCubeSecondary {
+
+    /*
+     * Private members --------------------------------------------------------
+     */
+
+    /**
+     * Representation of the edges of {@code this}.
+     */
     private String[] edges = new String[12];
 
+    /**
+     * Representation of the corners of {@code this}.
+     */
     private String[] corners = new String[8];
 
-    enum Side {
-        UP, DOWN, FRONT, BACK, LEFT, RIGHT
-    }
-
+    /**
+     * Swaps the positions of two entries in {@code array}.
+     *
+     * @param array
+     *            the array
+     * @param i
+     *            the index of one of the entries
+     * @param j
+     *            the index of one of the entries
+     * @updates
+     * @requires 0 <= i < array.length() and 0 <= j < array.length() and i != j
+     *           //TODO is it?
+     * @ensures //TODO
+     */
     private static void swap(String[] array, int i, int j) {
         String tmp = array[i];
         array[i] = array[j];
@@ -43,21 +64,28 @@ public class RubiksCube1 extends RubiksCubeSecondary {
                 + piece.substring(0, piece.length() - 1);
     }
 
-    public RubiksCube1() {
+    private void createNewRep() {
         this.edges = new String[] { "WB", "WR", "WG", "WO", "GO", "BO", "GR",
                 "BR", "YG", "YR", "YB", "YO" };
         this.corners = new String[] { "WOB", "WBR", "WRG", "WGO", "YOG", "YGR",
                 "YRB", "YBO" };
     }
 
+    public RubiksCube1() {
+        this.createNewRep();
+    }
+
+    @Override
     public String cornerAt(int i) {
         return this.corners[i];
     }
 
+    @Override
     public String edgeAt(int i) {
         return this.edges[i];
     }
 
+    @Override
     public void turn(Side side, int times) {
         switch (side) {
             case UP:
@@ -168,6 +196,41 @@ public class RubiksCube1 extends RubiksCubeSecondary {
                 break;
         }
 
+    }
+
+    //TODO copied from OSU components
+    /*
+     * Standard methods -------------------------------------------------------
+     */
+
+    @Override
+    public final RubiksCube newInstance() {
+        try {
+            return this.getClass().getConstructor().newInstance();
+        } catch (ReflectiveOperationException e) {
+            throw new AssertionError(
+                    "Cannot construct object of type " + this.getClass());
+        }
+    }
+
+    @Override
+    public final void clear() {
+        this.createNewRep();
+    }
+
+    @Override
+    public final void transferFrom(Object source) {
+        assert source != null : "Violation of: source is not null";
+        assert source != this : "Violation of: source is not this";
+        assert source instanceof RubiksCube1 : "Violation of: source is of dynamic type RubiksCube1";
+        /*
+         * This cast cannot fail since the assert above would have stopped
+         * execution in that case.
+         */
+        RubiksCube1 localSource = (RubiksCube1) source;
+        this.edges = localSource.edges;
+        this.corners = localSource.corners;
+        localSource.createNewRep();
     }
 
 }

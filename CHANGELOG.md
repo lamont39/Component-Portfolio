@@ -1,24 +1,16 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+## 2026.04.24
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Calendar Versioning](https://calver.org/) of
-the following form: YYYY.0M.0D.
+### Added
 
-## [Unreleased]
+- Designed test suite for RubiksCube component
+- Designed two different use cases for RubiksCube component
 
-- Disabled an aspect of the coderunner extension
-- Fixed broken links
-- Disabled AI features globally
+### Updated
 
-## [2024.12.30]
+- Changed design to include all turns in one kernel method, and scramble as a secondary method
 
-- Added table-based rubrics to all 6 parts of the project
-- Updated gitignore to exclude more files
-- Fixed image markdown in the interfaces document
-
-## [2024.08.07]
 ## 2026.03.31
 
 ### Added
@@ -31,8 +23,6 @@ the following form: YYYY.0M.0D.
 
 ## 2026.03.09
 
-## 2026.03.09
-
 
 ### Added
 
@@ -41,6 +31,7 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include cornerAt, edgeAt, and isSolved methods
+
 ## 2026.02.25
 
 ### Added

@@ -8,9 +8,4 @@ public class RubiksCube1Test extends RubiksCubeTest {
         return new RubiksCube1();
     }
 
-    @Override
-    protected final RubiksCube constructorRef(String s) {
-        return new RubiksCube1(s);
-    }
-
 }

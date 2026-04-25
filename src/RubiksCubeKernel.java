@@ -2,36 +2,28 @@ import components.standard.Standard;
 
 /**
  * Rubik's cube kernel component with primary methods.
- *
- *
  */
 public interface RubiksCubeKernel extends Standard {
 
     /**
-     * Rotates the cube once clockwise around the vertical axis when viewed from
-     * above.
-     *
-     * @updates this
-     * @ensures this = #this roated
+     * An enum, listing the six sides of the cube.
      */
-    void rotateY();
+    enum Side {
+        UP, DOWN, FRONT, BACK, LEFT, RIGHT
+    }
 
     /**
-     * Rotates the cube once clockwise around the left/right axis when viewed
-     * from the right.
+     * Turns a side of the cube a number of times.
      *
+     * @param side
+     *            the side being turned
+     * @param times
+     *            the number of times to turn the side
+     * @requires i >= 0
      * @updates this
-     * @ensures this = #this rotated
+     * @ensures this = #this with the side turned
      */
-    void rotateX();
-
-    /**
-     * Turns the right side of the cube once clockwise.
-     *
-     * @updates this
-     * @ensures this = #this with the right side turned
-     */
-    void turnR();
+    void turn(Side side, int times);
 
     /**
      * Reports the edge at index {@code i} in the edges array.
