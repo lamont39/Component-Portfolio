@@ -303,18 +303,23 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I don't know if it changed my understanding of software development. It felt
+like a longer, more extensive project, which I've already done a lot of.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+I don't know much about using enums. Based on where I put mine, I had to
+type sides out as RubiksCube.Side.RIGHT. I don't know if there was a better way
+to do it. I'm also not familiar with testing when you don't have a reference
+implementation, so I don't know if I did that well.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+I enjoy it a lot. This project was awesome! It was enjoyable to work on something
+interesting that I might have future uses for.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -322,25 +327,30 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I don't think there were any non-software skills I picked up during the project.
+I picked up many software skills, of course, but I can't think of any that aren't.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+I didn't have an answer for the previous question.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I don't think I will be pursuing a career in software development, although I
+don't know for sure. But for a few years now my focus had been on
+electrical/computer engineering.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+There's a chance I'll need to write software whatever I end up doing, so it could
+help. For now I'll continue the classes I'm taking and see what I end up being
+interested in. I don't know about any mentors as of now.
 
 ### Changelog
 
@@ -427,7 +437,5 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
