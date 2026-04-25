@@ -215,9 +215,9 @@ will likely refine your design to make your implementation easier to use.
   - **Description**:
     - <!-- TODO: describe your component then delete this comment -->
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - turn a certain side a certain amount, and get the edge or corner at a certain position
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - scramble by doing random turns, check if the cube is solved by checking the corners and edges at every position.
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
@@ -236,9 +236,9 @@ will likely refine your design to make your implementation easier to use.
   - **Description**:
     - <!-- TODO: describe your component then delete this comment -->
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - increment a number (using the set construction of the natural numbers, this would put the current number along with very previous number into a set to create the next number)
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - multiply a number by another one by calling increment on one the other number of times
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
@@ -257,9 +257,9 @@ will likely refine your design to make your implementation easier to use.
   - **Description**:
     - <!-- TODO: describe your component then delete this comment -->
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - get the card at a certain position, put a card into a certain spot (entry and insert)
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - shuffle by calling insert(entry(0), random) enough times, and drawing a hand of cards to create a new deck (extract)
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:

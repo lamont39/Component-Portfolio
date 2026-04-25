@@ -139,8 +139,6 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
-
 ## Assignment Tasks
 
 Your primary task for this assignment is to polish up your code and get it
@@ -305,18 +303,32 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I don't know if it changed my understanding of software development. It felt
+like a longer, more extensive project, which I've already done a lot of. I feel
+like it maps to the real world at least a little bit. This probably isn't how I
+would go about doing something like this on my own, but the skills I gained can
+be applied to a lot of things.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+I don't know much about using enums. Based on where I put mine, I had to
+type sides out as RubiksCube.Side.RIGHT. I don't know if there was a better way
+to do it. I'm also not familiar with testing when you don't have a reference
+implementation, so I don't know if I did that well. I feel like my Javadoc comments
+were fairly sloppy overall, so I could definitely improve there. Unfortunately,
+these were all issues that came up on the last segment of the project, so there
+wasn't much I could to do remedy them besides pushing through.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+I enjoy it a lot. This project was awesome! It was enjoyable to work on something
+interesting that I might have future uses for. I enjoyed software development
+before the project, and I've worked on projects for classes and for personal
+projects, but this is the first time getting a grade for something like a personal
+project, so that's pretty cool.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -324,29 +336,41 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I don't think there were any non-software skills I picked up during the project.
+I picked up many software skills, of course, but I can't think of any that aren't.
+The software skills I picked up are mostly related to the OSU software discipline,
+but not all of them are. Trying to do testing without a reference implementation
+is a skill I struggled with, but I think I managed at least something. Writing
+and debugging code in general is of course a huge skill I developed throughout
+the project.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+Most of the skills I gained are just writing and debugging code in one way or
+another, so I really have no idea what I would do for this.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I don't think I will be pursuing a career in software development, although I
+don't know for sure. For a few years now my focus had been on
+electrical/computer engineering. As much as I enjoy programming, I would prefer
+to be working on something with my hands, like electrical circuits. As far as the
+topic I chose goes, I would like to try to code an efficient Rubik's cube solver
+at some point.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+There's a chance I'll need to write software whatever I end up doing, so it could
+help. For now I'll continue the classes I'm taking and see what I end up being
+interested in. I don't know about any mentors as of now.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -381,8 +405,6 @@ like to accomplish that, you will need to make GitHub releases after each pull
 request merge (or at least tag your commits). This is not required.
 
 ### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -433,7 +455,5 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
