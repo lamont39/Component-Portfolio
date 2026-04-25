@@ -47,10 +47,10 @@ public class RubiksCube1 extends RubiksCubeSecondary {
      *            the index of one of the entries
      * @param j
      *            the index of one of the entries
-     * @updates
+     * @updates array
      * @requires 0 <= i < array.length() and 0 <= j < array.length() and i != j
-     *           //TODO is it?
-     * @ensures //TODO
+     *
+     * @ensures the array is as before but with entries i and j swapped
      */
     private static void swap(String[] array, int i, int j) {
         String tmp = array[i];
@@ -58,12 +58,23 @@ public class RubiksCube1 extends RubiksCubeSecondary {
         array[j] = tmp;
     }
 
-    //change to allow for counterclockwise rotations?
+    /**
+     * Rotates a string by putting the last character at the beginning.
+     *
+     * @param piece
+     *            a string representing a piece to rotate
+     * @updates piece
+     * @requires piece.length() >= 1
+     * @return the rotated piece
+     */
     private static String rotatePiece(String piece) {
         return piece.charAt(piece.length() - 1)
                 + piece.substring(0, piece.length() - 1);
     }
 
+    /**
+     * Creater of initial representation.
+     */
     private void createNewRep() {
         this.edges = new String[] { "WB", "WR", "WG", "WO", "GO", "BO", "GR",
                 "BR", "YG", "YR", "YB", "YO" };
@@ -71,22 +82,25 @@ public class RubiksCube1 extends RubiksCubeSecondary {
                 "YRB", "YBO" };
     }
 
+    /**
+     * No-argument constructor.
+     */
     public RubiksCube1() {
         this.createNewRep();
     }
 
     @Override
-    public String cornerAt(int i) {
+    public final String cornerAt(int i) {
         return this.corners[i];
     }
 
     @Override
-    public String edgeAt(int i) {
+    public final String edgeAt(int i) {
         return this.edges[i];
     }
 
     @Override
-    public void turn(Side side, int times) {
+    public final void turn(Side side, int times) {
         switch (side) {
             case UP:
                 for (int i = 0; i < times; i++) {
@@ -198,7 +212,6 @@ public class RubiksCube1 extends RubiksCubeSecondary {
 
     }
 
-    //TODO copied from OSU components
     /*
      * Standard methods -------------------------------------------------------
      */
